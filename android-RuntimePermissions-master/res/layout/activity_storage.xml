@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:id="@+id/mLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edit_content"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top|left"
+            android:text="android M 的名字官方刚发布不久，最终正式版即将来临！
+android在不断发展，最近的更新 M 非常不同，一些主要的变化例如运行时权限将有颠覆性影响。惊讶的是android社区鲜有谈论这事儿，尽管这事很重要或许在不远的将来会引发很严重的问题。
+这是今天我写这篇博客的原因。这里有一切关于android运行时权限你需要知道的，包括如何在代码中实现。现在亡羊补牢还不晚。" />
+
+        <Button
+            android:id="@+id/bt_write"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="写入" />
+
+        <Button
+            android:id="@+id/bt_read"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="读取" />
+
+        <TextView
+            android:id="@+id/txt_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>
